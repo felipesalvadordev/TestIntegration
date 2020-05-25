@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Felipe M. Salvador\\source\\repos\\.NETCORE-TesteIntegracao-master\\WebApp.API\\WebApp.TesteIntegracao\\WebApp.TesteIntegracao.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Felipe M. Salvador\\source\\repos\\.NETCORE-TesteIntegracao-master\\WebApp.API\\WebApp.API\\WebApp.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felipe M. Salvador\\source\\repos\\.NETCORE-TesteIntegracao-master\\WebApp.API\\WebApp.API\\WebApp.API.csproj",
+        "projectName": "WebApp.API",
+        "projectPath": "C:\\Users\\Felipe M. Salvador\\source\\repos\\.NETCORE-TesteIntegracao-master\\WebApp.API\\WebApp.API\\WebApp.API.csproj",
+        "packagesPath": "C:\\Users\\Felipe M. Salvador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felipe M. Salvador\\source\\repos\\.NETCORE-TesteIntegracao-master\\WebApp.API\\WebApp.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Felipe M. Salvador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.sisatec.com.br/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Felipe M. Salvador\\source\\repos\\.NETCORE-TesteIntegracao-master\\WebApp.API\\WebApp.TesteIntegracao\\WebApp.TesteIntegracao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felipe M. Salvador\\source\\repos\\.NETCORE-TesteIntegracao-master\\WebApp.API\\WebApp.TesteIntegracao\\WebApp.TesteIntegracao.csproj",
+        "projectName": "WebApp.TesteIntegracao",
+        "projectPath": "C:\\Users\\Felipe M. Salvador\\source\\repos\\.NETCORE-TesteIntegracao-master\\WebApp.API\\WebApp.TesteIntegracao\\WebApp.TesteIntegracao.csproj",
+        "packagesPath": "C:\\Users\\Felipe M. Salvador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felipe M. Salvador\\source\\repos\\.NETCORE-TesteIntegracao-master\\WebApp.API\\WebApp.TesteIntegracao\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Felipe M. Salvador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.sisatec.com.br/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Felipe M. Salvador\\source\\repos\\.NETCORE-TesteIntegracao-master\\WebApp.API\\WebApp.API\\WebApp.API.csproj": {
+                "projectPath": "C:\\Users\\Felipe M. Salvador\\source\\repos\\.NETCORE-TesteIntegracao-master\\WebApp.API\\WebApp.API\\WebApp.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.4.1, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
